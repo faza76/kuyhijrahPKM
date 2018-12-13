@@ -9,17 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashSplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity_Profile" />
-        <activity android:name=".Activity_calendar" />
-        <activity android:name=".Activity_todo" />
-        <activity android:name=".SholatWajib"></activity>
+        <activity android:name=".MainActivity"
+            android:label="Kuy Hijrah">
+        </activity>
+        <activity android:name=".Activity_Profile"
+            android:label="Profile"/>
+        <activity android:name=".Activity_calendar"
+            android:label="Kalendar"/>
+        <activity android:name=".Activity_todo"
+            android:label="To Do"/>
+        <activity android:name=".SholatWajib"
+            android:label="Shalat Wajib"></activity>
+        <activity
+            android:name=".Activity_Setting"
+            android:label="Setting" />
     </application>
 
 </manifest>
